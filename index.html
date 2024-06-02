@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catman Animal Shelter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="/images/logo.jpg" alt="Catman Animal Shelter Logo" class="logo">
+        </div>
+        <h1>Catman Animal Shelter</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#adopt">Adopt a Pet</a></li>
+                <li><a href="#volunteer">Volunteer</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to Catman Animal Shelter. We are dedicated to rescuing homeless cats and finding them loving homes.</p>
+            <p>Catman Animal Shelter was founded by Lawrence Lastra in 2017. He is a solo rescuer in the Philippines who aims to spread awareness about the importance of spaying and neutering stray cats and dogs. Lawrence spent his own money to care for the stray cats and dogs. A total of 150 cats and dogs have been castrated using his own funds.</p>
+        </section>
+        <section id="adopt">
+            <h2>Adopt a Pet</h2>
+            <p>Check out our adorable cats available for adoption.</p>
+            <div id="pet-gallery">
+                <!-- Gallery images -->
+                <div class="gallery-grid">
+                    <img src="images/cat1.jpg" alt="Cat 1">
+                    <img src="images/cat2.jpg" alt="Cat 2">
+                    <img src="images/cat3.jpg" alt="Cat 3">
+                    <img src="images/cat4.jpg" alt="Cat 4">
+                    <img src="images/cat5.jpg" alt="Cat 5">
+                    <img src="images/cat7.jpg" alt="Cat 6">
+                    <img src="images/cat8.jpg" alt="Cat 7">
+                </div>
+            </div>
+        </section>
+        <section id="volunteer">
+            <h2>Volunteer</h2>
+            <p>Join our team and help us care for our animals.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Catman Animal Shelter. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
